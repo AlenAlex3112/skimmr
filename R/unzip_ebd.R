@@ -17,7 +17,7 @@
 #' @return Does not return output. Specified files are unzipped and saved in the local directory.
 #' @export
 #'
-unzip_ebd <- function(dataset_str = "ebd_IN_unv_smp_rel", unzip_which = c("ebd", "sed"),
+unzip_ebd <- function(dataset_str = "ebd_IN_unv_smp_rel", unzip_which = c("ebd", "sed", "unv"),
                       dir_name = NULL) {
 
   # unzip_which can only be one of these three
